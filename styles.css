@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+@media screen and (max-width:1440px){
+    header{
+        padding: 30px;
+    }
+    body{
+        font-size: 15px;
+        font-family:Lexend deca, sans-serif;
+        line-height: 25px;
+    }
+    main{
+        margin: auto;;
+        font-family:"Lexend Deca";
+        width: 80%;
+        
+    }
+    .cars{
+        display: flex;
+        margin: auto;
+    }
+    .sedans{
+        background-color: hsl(31, 77%, 52%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding: 40px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        
+    }
+    
+    .suvs{
+        background-color:  hsl(184, 100%, 22%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding: 40px;
+    }
+    
+    .luxury{
+        background-color: hsl(179, 100%, 13%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding: 40px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .sedans button{
+        padding: 15px;
+        border-radius: 40px;
+        border:none;
+        color:  hsl(31, 77%, 52%);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .sedans button:hover{
+        border:solid white 1px;
+        background-color:  hsl(31, 77%, 52%);
+        color:hsla(0, 0%, 100%, 0.75);
+        cursor: pointer;
+    }
+    .suvs button{
+        padding: 15px;
+        border-radius: 40px;
+        border:none;
+        color:  hsl(184, 100%, 22%);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .suvs button:hover{
+        border:solid white 1px;
+        background-color:  hsl(184, 100%, 22%);
+        color:hsla(0, 0%, 100%, 0.75);
+        cursor: pointer;
+        
+    }
+    
+    .luxury button{
+        padding: 15px;
+        border-radius: 40px;
+        border:none;
+        color:  hsl(179, 100%, 13%);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .luxury button:hover{
+        border:solid white 1px;
+        background-color:  hsl(179, 100%, 13%);
+        color:hsla(0, 0%, 100%, 0.75);
+        cursor: pointer;
+    }
+    img{
+        padding-bottom: 20px;
+    }
+    
+    h1{
+        padding-bottom: 30px;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    
+    p{
+        padding-bottom: 50px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+        
+}
+*/
+
+
+header{
+    padding: 30px;
+}
+body{
+    font-size: 15px;
+    font-family:Lexend deca, sans-serif;
+    line-height: 25px;
+}
+main{
+    margin: auto;;
+    font-family:"Lexend Deca";
+    width: 80%;
+    
+}
+.cars{
+    display: flex;
+    margin: auto;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.suvs{
+    background-color:  hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 40px;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sedans button{
+    padding: 15px;
+    border-radius: 40px;
+    border:none;
+    color:  hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.sedans button:hover{
+    border:solid white 1px;
+    background-color:  hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+.suvs button{
+    padding: 15px;
+    border-radius: 40px;
+    border:none;
+    color:  hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.suvs button:hover{
+    border:solid white 1px;
+    background-color:  hsl(184, 100%, 22%);
+    color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    
+}
+
+.luxury button{
+    padding: 15px;
+    border-radius: 40px;
+    border:none;
+    color:  hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.luxury button:hover{
+    border:solid white 1px;
+    background-color:  hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+img{
+    padding-bottom: 20px;
+}
+
+h1{
+    padding-bottom: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    padding-bottom: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+    
+
+/* Style sheet for Grid Task */
+
+.grid{
+    border: solid black 5px;
+    background-color: black;
+    height: 80%;
+}
+.container{
+   margin: auto;
+   border:solid black 3px;
+}
+
+.oy{
+    display: flex;
+    width: 100%;
+    border: solid black 5px;
+    height: 40vh;
+}
+.orange{
+    background-color: orangered;
+    padding: 50px;
+    width: 70%;
+    border: solid black 5px;
+}
+.yellow{
+    background-color: yellow;
+    padding: 50px;
+    width: 30%;
+    border: solid black 5px;
+}
+.gb{
+    
+    width: 100%;
+    border: solid black 5px; 
+    height: 40vh; 
+    display: flex;
+    flex-direction:row; 
+}
+.green{
+    background-color: green;
+    padding: 50px;
+    width: 50%;
+    border: solid black 5px;
+  
+}
+.blue{
+    width: 50%;
+    height: 40vh;
+}
+
+.blue1{
+    background-color:skyblue;
+    padding: 40px;
+    border: solid black 5px;
+    width:100%;
+    height: 40%;
+}
+.blue2{
+    background-color: skyblue;
+    padding: 10px;
+    border: solid black 5px;
+    width: 100%;
+    height: 55%;
+}
